@@ -1,0 +1,51 @@
+controller_list:
+  - name: fake_right_arm_controller
+    joints:
+      []
+  - name: fake_left_arm_controller
+    joints:
+      - l_wrist_roll_joint
+  - name: fake_right_arm_2_controller
+    joints:
+      - r_gripper_joint
+  - name: fake_all_controller
+    joints:
+      - bl_caster_rotation_joint
+      - bl_caster_l_wheel_joint
+      - bl_caster_r_wheel_joint
+      - br_caster_rotation_joint
+      - br_caster_l_wheel_joint
+      - br_caster_r_wheel_joint
+      - fl_caster_rotation_joint
+      - fl_caster_l_wheel_joint
+      - fl_caster_r_wheel_joint
+      - fr_caster_rotation_joint
+      - fr_caster_l_wheel_joint
+      - fr_caster_r_wheel_joint
+      - torso_lift_joint
+      - head_pan_joint
+      - head_tilt_joint
+      - l_shoulder_pan_joint
+      - l_shoulder_lift_joint
+      - l_upper_arm_roll_joint
+      - l_elbow_flex_joint
+      - l_forearm_roll_joint
+      - l_wrist_flex_joint
+      - l_wrist_roll_joint
+      - l_gripper_l_finger_joint
+      - l_gripper_motor_slider_joint
+      - l_gripper_motor_screw_joint
+      - l_gripper_joint
+      - laser_tilt_mount_joint
+      - r_shoulder_pan_joint
+      - r_shoulder_lift_joint
+      - r_upper_arm_roll_joint
+      - r_elbow_flex_joint
+      - r_forearm_roll_joint
+      - r_wrist_flex_joint
+      - r_wrist_roll_joint
+      - r_gripper_l_finger_joint
+      - r_gripper_motor_slider_joint
+      - r_gripper_motor_screw_joint
+      - r_gripper_joint
+      - torso_lift_motor_screw_joint

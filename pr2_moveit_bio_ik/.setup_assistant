@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: pr2_description
+    relative_path: robots/pr2.urdf.xacro
+  SRDF:
+    relative_path: config/pr2.srdf
+  CONFIG:
+    author_name: Philipp Ruppel
+    author_email: 0ruppel@informatik.uni-hamburg.de
+    generated_timestamp: 1507204125
